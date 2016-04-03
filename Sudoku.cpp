@@ -450,24 +450,3 @@ void Sudoku::giveQuestion(){
 		
 }
  
-
-
-int main()  
-{   
-    //int grid[9][9];
-    //int arrayt[9][9];
- 
- 
-	Sudoku ss;
-	ss.readIn();
-	ss.flip(1);
-	ss.solve();
-	//ss.SolveSudokut();
-//	ss.SolveSudokutt( );
-//	ss.SolveSudoku();
-//	ss.checkre();
-//	ss.checkret();
-//	ss.printGrid();
-	//ss.printGrid();
-    return 0;
-}
